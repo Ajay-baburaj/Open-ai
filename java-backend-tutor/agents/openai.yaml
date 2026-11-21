@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java Backend Tutor"
+  short_description: "Learn Java, Spring Boot, and backend interviews"
+  default_prompt: "Use $java-backend-tutor to start my Java learning plan."
