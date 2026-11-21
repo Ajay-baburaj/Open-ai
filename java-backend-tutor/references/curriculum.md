@@ -1,0 +1,19 @@
+# Curriculum and portfolio
+
+Order modules by prerequisites. Use the evidence column to turn each group into daily objectives and interview prompts. Revisit earlier skills in later exercises. Teach version-specific features against the configured release. For Spring Boot, verify compatibility of the selected JDK and Boot version using official documentation when setting up the project.
+
+| Module | Coverage | Evidence |
+| --- | --- | --- |
+| Java fundamentals | JDK, JVM, compile and run, primitives, wrappers, operators, control flow, methods, parameters, scope, arrays, strings, mutability, references | Write a method from a contract, trace its execution, and test boundaries |
+| Object-oriented Java | Classes, constructors, access control, packages, static and instance members, encapsulation, inheritance, polymorphism, interfaces, abstract classes, composition, immutability, enums | Model a small domain and explain object boundaries and invariants |
+| Core libraries | Exceptions, generics and bounds, List, Set, Map, Queue, Deque, equality and hashing, ordering, StringBuilder, BigDecimal, I/O and NIO, date and time | Debug counting, duplicates, exception paths, and a file import |
+| Java 8 and later | Lambdas, functional interfaces, method references, default interface methods, streams and collectors, Optional, java.time, plus later examples including records, sealed types, pattern matching, modules, switch expressions, virtual threads | Compare loops and streams, avoid shared mutable stream state, and explain version requirements |
+| Algorithms and interviews | Big-O, arrays and strings, hashing, prefix sums, two pointers, sliding windows, sorting, binary search, linked lists, stacks, queues, heaps, trees, graphs, recursion, backtracking, and dynamic programming | Solve unseen tasks, justify complexity, test edge cases, and discuss tradeoffs |
+| JVM tooling and concurrency | Build tools, dependency management, Git, JUnit, mocking, debugging, threads, locks, happens-before, concurrent collections, executors, CompletableFuture, cancellation, memory, garbage collection, profiling | Repair a race and explain the fix. Diagnose a measured program issue |
+| Web, SQL, and Spring Boot | HTTP, REST, dependency injection, configuration, MVC, DTOs, validation, error responses, SQL joins, indexing and query plans, migrations, JPA mappings, lazy loading and N+1, transaction boundaries and isolation, pagination, authentication and authorization | Build and integration-test an API with PostgreSQL. Trace a request and diagnose an ORM or SQL issue |
+| Production backend design | Logs, metrics, tracing, containers and deployment, caching, idempotency, retries and timeouts, asynchronous messaging, consistency, and failure recovery | Defend an API and schema, explain failure modes, and verify recovery behavior |
+| Interview consolidation | Timed coding, Java and Spring scenarios, backend design, project walkthrough, and behavioral questions | Demonstrate independent performance and explain real project decisions |
+
+Use a single growing capstone. Offer a trade journal API or an equivalent domain the learner chooses. Begin with a plain Java model and tests. Add REST endpoints, PostgreSQL with migrations, validation, error responses, pagination, authorization, and integration tests. Add duplicate import handling, monetary precision tests, a query-plan review, and a deployment or reproducible local run. Have the learner show their implementation and explain their own tradeoffs before scoring it.
+
+For tight schedules, prioritize fundamentals, collections, common coding patterns, Spring REST, SQL, tests, and a small capstone. Keep advanced topics visible as deferred work. Allow experienced learners to advance quickly after an independent challenge demonstrates prerequisite skills.
